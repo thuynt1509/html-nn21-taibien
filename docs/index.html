@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LDP NN21</title>
+    <link rel="stylesheet" href="assets/main.css">
+</head>
+
+<body class="font-MyriadPro text-[32px] text-[#0D297A] md:text-[16px] leading-tight">
+    <section class="w-full bg-[#fff] lg:hidden">
+        <div class="container mx-auto flex items-center justify-between font-MyriadProBold py-[10px]">
+            <a rel="noopener" href="https://nhatnhat.com/" class="logo">
+                <img alt="Dược phẩm Nhất Nhất" class="" 
+                width="299" height="56"
+                src="images/logo.png">
+            </a>
+            <div class="flex items-center text-[#0A1C5F]">
+                <a href="#" class="bg-[#A70C0C] flex items-center justify-center px-[20px] h-[50px] text-[30px] text-[#FFC600]">
+                    MUA NGAY
+                </a>
+                <span class="mx-[10px]">
+                    Tư vấn miễn phí
+                </span>
+                <a href="#" class="bg-[#FFC600] flex items-center justify-center text-[30px] h-[50px] px-[20px]">
+                    0818 122 122
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-blue-200 relative h-auto">
+        <picture class="block">
+            <source media="(max-width:768px)" srcset="images/banner-mb.jpg">
+            <img media="(min-width:769px)" src="images/banner.jpg"/>
+        </picture>
+    </section>
+
+    <section class="bg-[#E5E5E5] py-[15px] md:bg-[#0D297A]">
+        <div class="container mx-auto uppercase font-MyriadProBold text-center text-[#0D297A] text-[50px]
+        lg:text-[32px] md:text-[#fff] md:text-[20px]
+        ">
+            Triệu chứng của tai biến là gì, phải chăng thiếu máu não là nguyên nhân chính gây ra tai biến?
+        </div>
+    </section>
+
+    <section class="container mx-auto">
+        <div class="text-[32px] text-[#0D297A] py-[20px] md:text-[16px]">
+            Tai biến mạch máu não, hay thường được gọi là đột quỵ, xảy ra do mạch máu não bị vỡ 
+            <span class="font-MyriadProBold">(xuất huyết não)</span>
+            hoặc tắc <span class="font-MyriadProBold">(thiếu máu não)</span>.<br/>
+            Trong đó: 85% nguyên nhân gây ra là do thiếu máu não, 15% là do xuất huyết não.
+            Nguyên nhân chính gây ra tai biến là do xơ vữa động mạch, tạo thành cục máu đông gây tắc nghẽn mạch máu não, với trường hợp huyết áp cao thì gây xuất huyết do động mạch bị vỡ.
+        </div>
+        <div class="grid grid-cols-3 gap-4 lg:grid-cols-2 md:gap-2">
+            <div class="bg-[#0D297A] flex p-[20px] md:p-[10px]">
+                <span class="block mr-2 md:w-[13px]">
+                    <img class="img-fluid" alt="Dược phẩm Nhất Nhất" width="44" height="41" src="images/icon-05.png"/>
+                </span>
+                <p class="flex-1 text-[32px] text-[#fff] md:text-[16px]">
+                    Đau đầu dữ dội, cơn đau đầu đến rất nhanh, có thể gây buồn nôn hoặc nôn.
+                </p>
+            </div>
+            <div class="bg-[#0D297A] flex p-[20px] md:p-[10px]">
+                <span class="block mr-2 md:w-[13px]">
+                    <img class="img-fluid" alt="Dược phẩm Nhất Nhất" width="44" height="41" src="images/icon-05.png"/>
+                </span>
+                <p class="flex-1 text-[32px] text-[#fff] md:text-[16px]">
+                    Hoa mắt, chóng mặt, người mất thăng bằng đột ngột, không phối hợp được các hoạt động.
+                </p>
+            </div>
+            <div class="bg-[#0D297A] flex p-[20px] md:p-[10px]">
+                <span class="block mr-2 md:w-[13px]">
+                    <img class="img-fluid" alt="Dược phẩm Nhất Nhất" width="44" height="41" src="images/icon-05.png"/>
+                </span>
+                <p class="flex-1 text-[32px] text-[#fff] md:text-[16px]">
+                    Cử động khó hoặc không thể cử động chân tay, tê liệt một bên cơ thể. Dấu hiệu đột quỵ chính xác nhất là không thể nâng hai cánh tay qua đầu cùng một lúc.
+                </p>
+            </div>
+            <div class="bg-[#0D297A] flex p-[20px] md:p-[10px]">
+                <span class="block mr-2 md:w-[13px]">
+                    <img class="img-fluid" alt="Dược phẩm Nhất Nhất" width="44" height="41" src="images/icon-05.png"/>
+                </span>
+                <p class="flex-1 text-[32px] text-[#fff] md:text-[16px]">
+                    Khó phát âm, nói không rõ chữ, bị dính chữ, nói ngọng bất thường.
+                </p>
+            </div>
+            <div class="bg-[#0D297A] flex p-[20px] md:p-[10px]">
+                <span class="block mr-2 md:w-[13px]">
+                    <img class="img-fluid" alt="Dược phẩm Nhất Nhất" width="44" height="41" src="images/icon-05.png"/>
+                </span>
+                <p class="flex-1 text-[32px] text-[#fff] md:text-[16px]">
+                    Cơ thể mệt mỏi, đột nhiên cảm thấy không còn sức lực, tê cứng mặt hoặc một nửa mặt, nụ cười bị méo mó.
+                </p>
+            </div>
+            <div class="bg-[#0D297A] flex p-[20px] md:p-[10px]">
+                <span class="block mr-2 md:w-[13px]">
+                    <img class="img-fluid" alt="Dược phẩm Nhất Nhất" width="44" height="41" src="images/icon-05.png"/>
+                </span>
+                <p class="flex-1 text-[32px] text-[#fff] md:text-[16px]">
+                    Thị lực giảm, mắt mờ, không nhìn rõ.
+                </p>
+            </div>
+        </div>
+        <div class="text-[32px] text-[#0D297A] py-[20px] md:text-[16px]">
+            Tổ chức y tế thế giới ghi nhận: Tai biến là nguyên nhân gây tử vong đứng thứ 2 trên TG , là nguyên nhân gây tàn phế hàng đầu TG: cứ 6 giây sẽ có 1 người tử vong do đột quỵ. 
+            Trung bình cứ 6 người có 1 người đột quỵ nếu không có biện pháp phòng tránh kịp thời.
+        </div>
+    </section>
+
+    <section class="bg-[#E5E5E5] py-[15px] md:bg-[#0D297A]">
+        <div class="container mx-auto font-MyriadProBold text-center text-[#0D297A] text-[50px]
+        lg:text-[32px] md:text-[#fff] md:text-[20px]
+        ">
+            NHỮNG PHƯƠNG PHÁP ĐIỀU TRỊ tai biến mạch não
+        </div>
+    </section>
+
+    <section class="container mx-auto">
+        <div class="flex flex-row space-x-4 py-[20px] md:flex-col md:space-x-0 ">
+            <div class="basis-3/5 bg-[#0D297A] md:bg-[#F1F1F1] md:mb-[10px]">
+                <div class="uppercase font-MyriadProBold flex items-center justify-center text-center h-[118px] bg-[#F1F1F1] text-[#0D297A] text-[32px]
+                md:text-[16px] md:h-auto md:bg-[#0D297A] md:text-[#fff] md:py-[10px]
+                ">
+                    Tây y điều trị bằng nội khoa và can thiệp ngoại khoa
+                </div>
+                <div class="text-[#fff] p-[30px] md:text-[#0D297A] md:p-[15px]">
+                    <p class="mb-[16px]">
+                        <span class="font-MyriadProBold">1) Thiếu máu não: </span> 
+                        Tiêm thuốc tiêu sợi huyết và lấy huyết khối bằng dụng cụ cơ học.
+                    </p>
+                    <p class="mb-[16px]">
+                        <span>2) Xuất huyết não:</span>
+                        Dùng thuốc có tác dụng đông hay cầm máu như :Transamin 0.25g/ 2- 4 ống, hoặc Nimotop 10mg/ 50ml tiêm đường tĩnh mạch . 
+                        Tiến hành phẫu thuật để lấy ổ máu tụ bán cầu trong trường hợp ổ máu tụ có kích thước lớn hơn 60ml gây nên rối loạn ý thức.
+                    </p>
+                    <p>
+                        => các biện pháp này phải được thực hiện trong khung giờ vàng (3-4h sau khi tai biến)
+                    </p>
+                </div>
+            </div>
+            <div class="basis-2/5 bg-[#0D297A] md:bg-[#F1F1F1]">
+                <div class="uppercase font-MyriadProBold flex items-center justify-center text-center h-[118px] bg-[#F1F1F1] text-[#0D297A] text-[32px]
+                md:text-[16px] md:h-auto md:bg-[#0D297A] md:text-[#fff] md:py-[10px]
+                ">
+                    Điều trị bằng Đông Y
+                </div>
+                <div class="text-[#fff] p-[30px] md:text-[#0D297A] md:p-[15px]">
+                    <p class="mb-[16px]">
+                        <span class="font-MyriadProBold">1)  Thiếu máu não:</span>  Vừa hoạt huyết vừa thông mạch, làm giảm độ nhớt của máu, tăng độ bền, tính đàn hồi, sự co bóp của mạch đẩy máu, 
+                        giảm độ hẹp của mạch máu giúp máu lưu thông tốt hơn. 
+                    </p>
+                    <p>
+                        2) Không sử dụng với trường hợp <span class="font-MyriadProBold">xuất huyết não</span>.
+                    </p>
+                </div>
+            </div>
+        </div>
+          <div class="text-[32px] text-[#0D297A] md:text-[16px] mb-[20px]">
+            85% nguyên nhân gây ra là do thiếu máu não, 15% là do xuất huyết não. Xuất huyết não có tỷ lệ tử vong cao hơn (40%-50%), và hiện tại chưa có phương pháp điều trị đặc hiệu. 
+            Vì máu lưu thông kém, hẹp, nghẽn mạch, là nguyên nhân chính gây tai biến mạch não nên hướng mới điều trị hiệu quả nhất chính là thuốc Đông y, nhưng không phải cứ thuốc Đông y là hiệu quả, ngăn được Tai biến tái phát.
+        </div>
+    </section>
+
+    <section class="bg-[#E5E5E5] py-[15px] md:bg-[#0D297A]">
+        <div class="container mx-auto uppercase font-MyriadProBold text-center text-[#0D297A] text-[50px]
+        lg:text-[32px] md:text-[#fff] md:text-[20px]
+        ">
+            Tai biến có phải là chuyện <span>"Trời kêu ai nấy dạ"?</span>
+        </div>
+    </section>
+
+    <section class="container mx-auto">
+        <ul class="list-disc pl-[40px] py-[20px]">
+            <li>
+                Bất cứ ai cũng có nguy cơ bị tai biến. Người già có nguy cơ tai biến cao hơn người trẻ.
+            </li>
+            <li>
+                Nam giới có nguy cơ bị tai biến cao hơn nữ giới.
+            </li>
+            <li>
+                Người có người thân trong gia đình từng bị tai biến có nguy cơ cao hơn người bình thường.
+            </li>
+            <li>
+                Người Mỹ gốc Phi có nguy cơ mắc tai biến cao gần gấp đôi so với người da trắng
+            </li>
+            <li class="font-MyriadProBold">
+                Đặc biệt là những người có yếu tố bệnh học sau:
+            </li>
+        </ul>
+        <div class="flex flex-row space-x-4 ">
+            <div class="basis-2/3">
+                <div class="px-[20px] py-[6px] bg-[#E5E5E5] border-solid border-[1px]  border-[#0D297A] mb-[20px]">
+                    1. Người có tiền sử tai biến 
+                </div>
+                <div class="px-[20px] py-[6px] bg-[#E5E5E5] border-solid border-[1px]  border-[#0D297A] mb-[20px]">
+                    2. Người đái tháo đường
+                </div>
+                <div class="px-[20px] py-[6px] bg-[#E5E5E5] border-solid border-[1px]  border-[#0D297A] mb-[20px]">
+                    3. Người có bệnh tim mạch
+                </div>
+                <div class="px-[20px] py-[6px] bg-[#E5E5E5] border-solid border-[1px]  border-[#0D297A] mb-[20px]">
+                    4. Người cao huyết áp
+                </div>
+                <div class="px-[20px] py-[6px] bg-[#E5E5E5] border-solid border-[1px]  border-[#0D297A] mb-[20px]">
+                    5. Người mỡ máu cao
+                </div>
+                <div class="px-[20px] py-[6px] bg-[#E5E5E5] border-solid border-[1px]  border-[#0D297A] mb-[20px]">
+                    6. Người thừa cân, bép phì 
+                </div>
+                <div class="px-[20px] py-[6px] bg-[#E5E5E5] border-solid border-[1px]  border-[#0D297A] mb-[20px]">
+                    7. Hút thuốc 
+                </div>
+                <div class="px-[20px] py-[6px] bg-[#E5E5E5] border-solid border-[1px]  border-[#0D297A] mb-[20px]">
+                    8. Lối sống không lành mạnh
+                </div>
+            </div>
+            <div class="basic-1/3 bg-[#0D297A]">
+                <span class="">
+                    <img class="block mx-auto" src="images/img-bsi.png"/>
+                </span>
+                <form class="flex flex-col">
+                    <input type="text" class="" placeholder="Họ và tên"/>
+                    <input type="number" class="" placeholder="Số điện thoại"/>
+                    <button>
+                        Đăng ký tư vấn bệnh
+                    </button>
+                </form>
+                <div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mx-auto">
+        <h2 class="text-[#053D9B] text-[48px] font-MyriadProBold text-center py-[30px] md:text-[20px] md:py-[10px]">
+            Chất lượng sản phẩm đã được kiểm chứng
+        </h2>
+        <div class="flex flex-wrap justify-between">
+            <div class="w-[48%] md:w-[100%]">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/clmtBrKrvPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <picture>
+                    <img width="570" height="169" alt="Dược phẩm Nhất Nhất" class="mx-auto" src="images/ytb-2-02.jpg" src="assets/images/ytb-2-02.jpg">
+                </picture>
+            </div>
+            <div class="w-[48%] md:w-[100%]">
+                <div class="flex items-center bg-[#011778] mb-[12px]">
+                    <span class="w-[40%]">
+                        <img class="mx-auto w-full" alt="Dược phẩm Nhất Nhất" width="249" height="159" src="images/thumb1.jpg"/>
+                    </span>
+                    <span class="flex-1 text-white text-[24px] px-[20px] md:text-[16px]">
+                        Sản phẩm của dược phẩm NHẤT NHẤT
+                    </span>
+                </div>
+                <div class="flex items-center bg-[#011778] mb-[12px]">
+                    <span class="w-[40%]">
+                        <img class="mx-auto w-full" alt="Dược phẩm Nhất Nhất" width="249" height="159" src="images/thumb2.jpg"/>
+                    </span>
+                    <span class="flex-1 text-white text-[24px] px-[20px] md:text-[16px]">
+                        Sản xuất tại nhà máy đạt giải vàng chất lượng quốc gia
+                    </span>
+                </div>
+                <div class="flex items-center bg-[#011778] mb-[12px]">
+                    <span class="w-[40%]">
+                        <img class="mx-auto w-full" alt="Dược phẩm Nhất Nhất" width="249" height="159" src="images/thumb3.jpg"/>
+                    </span>
+                    <span class="flex-1 text-white text-[24px] px-[20px] md:text-[16px]">
+                        Thành quả qua nhiều năm nghiên cứu 
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="w-full bg-[url('../images/bg-info-2.jpg')] pb-[45px]">
+        <div class="container mx-auto">
+            <h2 class="text-[#053D9B] text-[48px] font-MyriadProBold text-center py-[30px] md:text-[20px] md:py-[10px]">
+                Liệu trình sử dụng
+            </h2>
+            <div class="flex justify-between mb-[70px] flex-wrap md:mb-[35px] md:mx-[25px]">
+                <div class="bg-[#E1F6FF] relative py-[20px] w-[calc((100%-140px)/3)] shadow-[4px_4px_0_0_#003797] 
+                before:block before:content-[''] before:bg-[url('../images/icon-level.png')] before:bg-contain before:w-[29px] before:h-[63px] before:absolute before:right-[-50px] before:top-[50%] before:mt-[-31px]
+                md:w-full md:mb-[30px] md:before:rotate-90 md:before:right-[50%] md:before:mr-[-7px] md:before:top-auto md:before:bottom-[-32px]
+                md:before:w-[15px] md:before:h-[32px] 
+                ">
+                    <span class="p-[10px_20px] bg-[#00B9FF] text-white font-MyriadProBold">
+                        2 HỘP
+                    </span>
+                    <p class="p-[20px] text-[#2E3190] font-MyriadProSemiBold">
+                        Tan mảng bám, sạch răng
+                    </p>
+                </div>
+                <div class="bg-[#E1F6FF] relative py-[20px] w-[calc((100%-140px)/3)] shadow-[4px_4px_0_0_#003797] 
+                before:block before:content-[''] before:bg-[url('../images/icon-level.png')] before:bg-contain before:w-[29px] before:h-[63px] before:absolute before:right-[-50px] before:top-[50%] before:mt-[-31px]
+                md:w-full md:mb-[30px] md:before:rotate-90 md:before:right-[50%] md:before:mr-[-7px] md:before:top-auto md:before:bottom-[-32px]
+                md:before:w-[15px] md:before:h-[32px] 
+                ">
+                    <span class="p-[10px_20px] bg-[#00B9FF] text-white font-MyriadProBold">
+                        3 HỘP
+                    </span>
+                    <p class="p-[20px] text-[#2E3190] font-MyriadProSemiBold">
+                        Lành tổn thương, hết sưng, giảm đau nhức
+                    </p>
+                </div>
+                <div class="bg-[#E1F6FF] py-[20px] w-[calc((100%-140px)/3)] shadow-[4px_4px_0_0_#003797]
+                md:w-full
+                ">
+                    <span class="p-[10px_20px] bg-[#00B9FF] text-white font-MyriadProBold">
+                        5 HỘP
+                    </span>
+                    <p class="p-[20px] text-[#2E3190] font-MyriadProSemiBold">
+                        Răng chắc khoẻ, miệng hết hoàn toàn mùi khó chịu
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto md:mx-[-10px] md:w-auto">
+            <div class="bg-[#0083E8] rounded-[76px_76px_0_0] flex justify-end md:rounded-[0px]">
+                <span class="text-white text-[33px] w-[70%] text-center md:text-[18px]">
+                    Chuyên gia sẵn sàng tư vấn 
+                </span>
+            </div>
+            <div class="bg-[#003797] relative flex justify-end">
+                <span class="absolute w-[30%] bottom-0 left-0 
+                before:content-[''] before:bg-[url('../images/text-freeship2.png')]
+                before:bg-cover before:w-[127px] before:h-[57px] before:absolute
+                before:bottom-[50px] before:right-[50%] before:mr-[-140px] 
+                md:before:max-w-[57px] md:before:h-[25px] md:before:mr-[-60px]   
+                ">
+                    <img class="mx-auto md:max-w-[80%]" alt="Dược phẩm Nhất Nhất" width="161" height="222" src="images/img-product1.png">
+                </span>
+                <form class="w-[70%] py-[10px] px-[50px] flex flex-wrap justify-around md:px-[10px]">
+                    <div class="w-[48%] flex flex-col">
+                        <input class="w-100 h-[40px] bg-white px-[10px] text-[#053D9B] placeholder:text-[#053D9B] md:h-[30px]"
+                         type="text" placeholder="Họ tên"/>
+                    </div>
+                    <div class="w-[48%] flex flex-col">
+                        <input class="w-100 h-[40px] bg-white px-[10px] text-[#053D9B] placeholder:text-[#053D9B] md:h-[30px]"
+                         type="number" placeholder="Số điện thoại"/>
+                    </div>
+                    <div class="w-full text-center mt-[10px]">
+                        <button class="bg-[#EF413D] h-[40px] max-w-[100%] w-[350px] rounded-[5px] text-white text-[30px] font-MyriadProBold md:h-[30px] md:text-[16px]">ĐĂNG KÝ</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <section class="w-full bg-[url('../images/bg-comment.jpg')]">
+        <div class="container mx-auto">
+            <h2 class="text-[#053D9B] text-[48px]  text-center py-[30px] md:text-[20px] md:py-[10px]">
+                90% người dùng đạt 
+                <span class="font-MyriadProBold">HIỆU QUẢ</span>  
+                như mong đợi
+            </h2>
+            <div class="flex justify-between py-[20px] md:flex-wrap md:py-[10px]">
+                <div class="bg-white w-[calc((100%-40px)/3)] p-[20px] relative
+                before:absolute before:content-[''] before:bg-[url('../images/quotation-mark-02.png')] before:bg-cover
+                before:w-[47px] before:h-[41px] before:top-[5px] before:left-[10px]
+                md:w-full md:mb-[20px] md:before:hidden
+                ">
+                    <img class="mx-auto max-w-[78px] mt-[-60px] md:float-left md:mt-0 md:w-[40px] md:h-[40px] md:mr-2" 
+                        src="images/img-avatar.png"/>
+                    <div class="text-[#0443AB] text-[27px] font-MyriadProBold md:text-[18px]">
+                        Cô Thảo
+                    </div>
+                    <p class="text-[#050B5A]">
+                        Cô Thảo hay bị đau răng khó ngủ. Cô dùng nước ngậm răng miệng Nhất Nhất Plus được 5 ngày thì thấy đỡ. Kiên trì sử dụng 1 tháng thấy răng chắc khỏe. Giờ cô đã ngủ ngon và thoải mái hơn khi làm việc.
+                    </p>
+                </div>
+
+                <div class="bg-white w-[calc((100%-40px)/3)] p-[20px] relative
+                before:absolute before:content-[''] before:bg-[url('../images/quotation-mark-02.png')] before:bg-cover
+                before:w-[47px] before:h-[41px] before:top-[5px] before:left-[10px]
+                md:w-full md:mb-[20px] md:before:hidden
+                ">
+                <img class="mx-auto max-w-[78px] mt-[-60px] md:float-left md:mt-0 md:w-[40px] md:h-[40px] md:mr-2" 
+                src="images/img-avatar-1.png"/>
+                    <div class="text-[#0443AB] text-[27px] font-MyriadProBold md:text-[18px]">
+                        Bác Nam
+                    </div>
+                    <p class="text-[#050B5A]">
+                        Bác Nam hay bị chảy máu chân răng mỗi khi đánh răng, đã thay đổi nhiều loại bàn chải mà không đỡ. Hơi thở cũng có mùi dù bác vệ sinh răng miệng rất kỹ. Chảy máu chân răng bắt đầu giảm khi dùng nước ngậm Răng Miệng Nhất Nhất Plus đến ngày thứ 2. Ngày thứ 4 trở đi là giảm rõ rệt, không thấy chân răng chảy máu nữa. Hơi thở cũng thơm tho. 
+                    </p>
+                </div>
+
+                <div class="bg-white w-[calc((100%-40px)/3)] p-[20px] relative
+                before:absolute before:content-[''] before:bg-[url('../images/quotation-mark-02.png')] before:bg-cover
+                before:w-[47px] before:h-[41px] before:top-[5px] before:left-[10px]
+                md:w-full md:before:hidden
+                ">
+                <img class="mx-auto max-w-[78px] mt-[-60px] md:float-left md:mt-0 md:w-[40px] md:h-[40px] md:mr-2" 
+                src="images/img-avatar-1.png"/>
+                    <div class="text-[#0443AB] text-[27px] font-MyriadProBold md:text-[18px]">
+                        Anh Hoàng
+                    </div>
+                    <p class="text-[#050B5A]">
+                        Anh Hoàng bị sâu răng đau đến mức ăn không ngon, ngủ không yên. Anh không uống được thuốc giảm đau do đang bị đau dạ dày nên ngậm Nước ngậm răng miệng Nhất Nhất Plus. Ngậm đến ngày thứ 3 là thấy đỡ đau nhức, miệng cũng sạch thoáng.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="w-full bg-[#053D9B]">
+        <div class="container mx-auto py-[20px] text-white text-[48px] text-center md:text-[24px]">
+            <span class="font-MyriadProBold md:block">
+                NƯỚC NGẬM RĂNG MIỆNG
+            </span>
+            NHẤT NHẤT PLUS
+        </div>
+    </section>
+    <section class="w-full bg-[url('../images/bg-order.jpg')] bg-[50%_0] bg-no-repeat  md:bg-[url('../images/bg-order-mb.jpg')]">
+        <div class="container mx-auto text-[#053D9B] py-[70px] flex items-end md:flex-wrap md:flex-col-reverse md:pt-[300px] ">
+            <div class="w-[45%] md:w-full">
+                <h4 class="text-[37px] text-center font-MyriadProBold lg:text-[32px] md:text-[20px]">
+                    THÔNG TIN ĐẶT HÀNG 
+                </h4>
+                <form class="w-full">
+                    <div class="mb-3">
+                        <input class="h-[50px] w-full px-[10px] placeholder:text-[#053D9B] border-[1px] border-[#053D9B] focus:outline-none md:h-[40px]"
+                        type="text" placeholder="Họ tên"/>
+                    </div>
+                    <div class="mb-3">
+                        <input class="h-[50px] w-full px-[10px] placeholder:text-[#053D9B] border-[1px] border-[#053D9B] focus:outline-none md:h-[40px]"
+                        type="number" placeholder="Số điện thoại"/>
+                    </div>
+                    <div class="mb-3">
+                        <input class="h-[50px] w-full px-[10px] placeholder:text-[#053D9B] border-[1px] border-[#053D9B] focus:outline-none md:h-[40px]"
+                        type="text" placeholder="Địa chỉ nhận hàng"/>
+                    </div>
+                    <div class="flex items-center mb-3">
+                        <label class="text-[#053D9B] text-[37px] font-MyriadProBold lg:text-[20px]">
+                            SỐ LƯỢNG (HỘP): 
+                        </label>
+                        <div class="counter-main flex mx-2">
+                            <input type="button" value="-" class="btn-action decrease  w-[40px] text-center cursor-pointer">
+                            <input type="text" class="input-number quantity w-[40px] bg-[#0443ab] text-white text-center mx-2 focus:outline-none md:h-[40px]" name="quantity" id="number-max" value="1">
+                            <input type="button" value="+" class="btn-action increase w-[40px] text-center cursor-pointer">
+                            <div id="errmsg"></div>
+                        </div>
+                    </div>
+                    <div class="flex items-center border-[1px] border-[#0443ab] mb-3">
+                        <label class="bg-[#0443ab] flex items-center px-[20px] h-[50px] text-white font-MyriadProBold text-[37px] lg:text-[20px] md:h-[40px]">THÀNH TIỀN</label>
+                        <span class="flex-1 text-right p-[6px]">80.000 VNĐ</span>
+                    </div>
+                    <button class="mx-auto bg-[#EF1E18] px-[20px] block text-white font-MyriadProBold text-[30px] h-[50px] rounded-[5px] md:h-[40px]">
+                        MUA NGAY 
+                    </button>
+                </form>
+            </div>
+            <div class="w-[320px] pb-[50px] md:w-full md:flex md:flex-row-reverse md:justify-center md:pb-[20px]">
+                <div class="flex flex-col items-end leading-none">
+                    <span class="font-MyriadProBold text-[75px] md:text-[43px]">80.000</span>
+                    <label class="font-MyriadProBold text-[49px] border-b-2 border-[#053D9B] mb-3 md:text-[28px]">VNĐ/HỘP</label>
+                    <p class="text-[27px] md:text-[14px]">x120ml</p>
+                </div>
+                <span class="block text-right mt-3 md:w-[50%]">
+                    <img class="max-w-100 md:w-[100%]" src="images/text-freeship.png"/>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[url('../images/bg-footer.jpg')] bg-[50%_0] bg-no-repeat text-[#053D9B] py-[50px]">
+        <div class="container mx-auto text-center">
+            <p class="text-[15px]">(*) Sản phẩm không phải là thuốc, không có tác dụng thay thế thuốc chữa bệnh</p>
+            <p class="text-[15px] mb-[20px]">(*) Hiệu quả cảm nhận tùy theo cơ địa từng người</p>
+            <img class="mx-auto my-3" src="images/logo-ft.png"/>
+            <h4 class="text-[28px] font-MyriadProBold">
+                CÔNG TY PHÂN PHỐI TRỰC TUYẾN NHẤT NHẤT
+            </h4>
+            <p class="text-[21px] mb-[30px]">
+                Địa chỉ: số 24, ngõ 22 phố Trung Kính, phường Trung Hòa, quận Cầu Giấy, thành phố Hà Nội
+            </p>
+            <div class="grid grid-cols-3 gap-x-[20px]">
+                <div class="text-left">
+                    <h5 class="inline-block font-MyriadProBold text-[30px] border-b-2 border-[#2E3191] mb-[10px]">
+                        Chăm sóc khách hàng
+                    </h5>
+                    <ul >
+                        <li>
+                            <a href="#" class="text-[#2E3191] text-[19px] hover:text-[red] ">
+                                Chính sách đổi trả
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-[#2E3191] text-[19px] hover:text-[red]">
+                                Phương thức vận chuyển
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-[#2E3191] text-[19px] hover:text-[red]">
+                                Chính sách bảo mật
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-[#2E3191] text-[19px] hover:text-[red]">
+                                Chăm sóc sau bán hàng
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-[#2E3191] text-[19px] hover:text-[red]">
+                                Hướng dẫn mua hàng
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-[#2E3191] text-[19px] hover:text-[red]">
+                                Phương thức thanh toán
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="">
+                    <h5 class="inline-block font-MyriadProBold text-[30px] border-b-2 border-[#2E3191] mb-[10px]">
+                        Chăm sóc khách hàng
+                    </h5>
+                    <div class="grid gap-[10px] grid-cols-2">
+                        <a href="#" class="text-right">
+                            <img class="block float-right" src="images/icon-visa.png"/>
+                        </a>
+                        <a href="#">
+                            <img class="block float-left" src="images/icon-mscard.png"/>
+                        </a>
+                        <a href="#">
+                            <img class="block float-right" src="images/icon-usd.png"/>
+                        </a>
+                        <a href="#">
+                            <img class="block float-left" src="images/icon-ibbank.png"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="">
+                    <h5 class="inline-block font-MyriadProBold text-[30px] border-b-2 border-[#2E3191] mb-[10px]">
+                        Chăm sóc khách hàng
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/main.js"></script>
+    <script id="__bs_script__">//<![CDATA[
+        document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js'><\/script>".replace("HOST", location.hostname));
+        //]]>
+    </script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+/*
+ |--------------------------------------------------------------------------
+ | tailwind
+ |--------------------------------------------------------------------------
+*/
+
+/**
+ * This injects Tailwind's base styles and any base styles registered by
+ * plugins.
+ */
+@tailwind base;
+
+/**
+ * This injects Tailwind's component classes and any component classes
+ * registered by plugins.
+ */
+@tailwind components;
+
+/**
+ * This injects Tailwind's utility classes and any utility classes registered
+ * by plugins.
+ */
+@tailwind utilities;
+
+/**
+ * Use this directive to control where Tailwind injects the hover, focus,
+ * responsive, dark mode, and other variants of each class.
+ *
+ * If omitted, Tailwind will append these classes to the very end of
+ * your stylesheet by default.
+ */
+@tailwind variants;
+
+
+/*
+ |--------------------------------------------------------------------------
+ | Website
+ |--------------------------------------------------------------------------
+*/
+@font-face {
+    font-family: "Myriad Pro Regular";
+    src: url("../font/MYRIADPRO-REGULAR.OTF") format("opentype");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Myriad Pro Bold";
+    src: url("../font/MYRIADPRO-BOLD.OTF") format("opentype");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Myriad Pro SemiBold";
+    src: url("../font/MYRIADPRO-SEMIBOLD.OTF") format("opentype");
+    font-display: swap;
+  }
