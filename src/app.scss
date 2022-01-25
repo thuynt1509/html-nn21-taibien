@@ -52,3 +52,13 @@
     src: url("../font/MYRIADPRO-SEMIBOLD.OTF") format("opentype");
     font-display: swap;
   }
+  label.error{
+    font-size: 16px;
+    color: #ff0000;
+    margin-top:8px;
+  }
+  @media only screen and (max-width:767px) {
+    label.error{
+      font-size: 14px;
+    } 
+  }
